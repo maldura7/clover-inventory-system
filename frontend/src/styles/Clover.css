@@ -1,0 +1,68 @@
+/* src/styles/Clover.css */
+.clover-page {
+  padding: 20px;
+}
+
+.clover-card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.connection-status {
+  margin-bottom: 30px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.status-badge.connected {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status-badge.disconnected {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.setup-section,
+.sync-section {
+  padding: 20px 0;
+}
+
+.sync-controls {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+.clover-info {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.info-box {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.info-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.info-box li {
+  padding: 8px 0;
+}

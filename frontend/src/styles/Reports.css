@@ -1,0 +1,55 @@
+/* src/styles/Reports.css */
+.reports-page {
+  padding: 20px;
+}
+
+.reports-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.report-card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.report-card h2 {
+  margin-top: 0;
+}
+
+.report-card p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.report-info {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.report-info h4 {
+  margin-top: 0;
+}
+
+.report-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.report-info li {
+  padding: 5px 0;
+  color: #666;
+}
+
+.scheduled-reports {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

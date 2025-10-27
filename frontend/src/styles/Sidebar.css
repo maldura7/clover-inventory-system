@@ -1,0 +1,50 @@
+/* src/styles/Sidebar.css */
+.sidebar {
+  background: #34495e;
+  color: white;
+  width: 250px;
+  min-height: calc(100vh - 60px);
+  transition: width 0.3s ease;
+  overflow-y: auto;
+}
+
+.sidebar.closed {
+  width: 0;
+  overflow: hidden;
+}
+
+.sidebar-content {
+  padding: 20px 0;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.menu-item:hover {
+  background: #2c3e50;
+}
+
+.menu-item .icon {
+  font-size: 20px;
+}
+
+.sidebar-footer {
+  padding: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
